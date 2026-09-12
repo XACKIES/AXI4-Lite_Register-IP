@@ -1,0 +1,32 @@
+# Verilator / Simulation
+sim_build/
+**/sim_build/
+obj_dir/
+**/obj_dir/
+
+# Cocotb
+results.xml
+**/results.xml
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Waveforms
+*.vcd
+*.fst
+*.ghw
+*.wlf
+
+# Logs
+*.log
+
+# Virtual environments
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
